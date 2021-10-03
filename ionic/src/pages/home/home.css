@@ -1,0 +1,26 @@
+#page-home {
+  --theme-primary-color: url("../../imgs/background.jpg");
+  background: url("../../imgs/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#page-home [studio-id="home_Heading_2854"] {
+  --theme-text-secondary-color: #ffffff;
+  color: var(--theme-text-secondary-color);
+}
+
+#page-home [studio-id="home_Label_4425"] {
+  --theme-text-secondary-color: #e6e6e6;
+  color: var(--theme-text-secondary-color);
+  font-weight: 500;
+}
+
+#page-home [studio-id="home_Button_8701"] {
+  --theme-secondary-color: #ffffff;
+  --theme-primary-shade-one: #5252bd;
+  background: var(--theme-primary-shade-one);
+  color: var(--theme-secondary-color);
+  font-weight: 500;
+}
